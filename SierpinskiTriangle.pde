@@ -1,4 +1,4 @@
-int size = 500;
+
 
 public void setup()
 {
@@ -11,11 +11,6 @@ public void draw()
 }
 public void keyPressed()//optional
 {
-  if (key == 'w') {
-    size += 10; 
-  } else if (key == 's') {
-    size -= 10;
-  }
 }
 
 public void sierpinski(int x, int y, int len) 
